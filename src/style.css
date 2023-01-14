@@ -19,46 +19,27 @@ body{
     height: 2.5rem;
 }
 
+section{
+    padding: 2rem;
+}
+
 .hero__image-con{
-    display: flex;
     margin-top: 3rem;
-    height: 23rem;
-    justify-content: center;
-    gap: 1.3rem;
-    position: relative;
-}
-
-.hero__inner-image-con{
+    margin-bottom: 3rem;
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    /* position: absolute; */
+    justify-content: center;
 }
 
-.hero__inner-image-con img{
-
-    transform: scale(1.2);
-}
-
-.one{
-    margin-top:2rem;
-}
-
-.three{
-    margin-top:3rem;
-}
-
-.five{
-    margin-top: 2.2rem;
+.hero__image-con img{
+    max-width: 40rem;
+    width: 100%;
 }
 
 .hero__title{
     font-size: 3.6rem;
-    padding-left: 3rem;
 }
 
 .hero__description{
-    padding-left: 3rem;
     font-size: 1.6rem;
     width: 32rem;
 }
