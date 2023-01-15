@@ -43,3 +43,67 @@ section{
     font-size: 1.6rem;
     width: 32rem;
 }
+
+/* styling product session */
+.products-con{
+    margin-top: 4rem;
+}
+.product{
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: relative;
+}
+
+.product__image{
+    max-width: 17rem;
+    width: 100%;
+}
+
+.product__detail{
+    max-width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product__star{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.dot{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: #918E9B;
+    display: inline-block;
+}
+
+.product__rating, .product__description{
+    color: #222222;
+}
+
+.product__quantity, .product__country{
+    color: #918E9B;
+}
+.product__price{
+    font-weight: 600;
+}
+
+.person{
+    font-weight: 300;
+}
+
+.label{
+    background-color: white;
+    border-radius: 5px;
+    width: 6rem;
+    padding: 0.5rem ;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+
+}
