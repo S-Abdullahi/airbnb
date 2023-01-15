@@ -19,12 +19,14 @@ function App(){
           {Datas.map((data)=>{
             return <Card 
                   key = {data.id}
-                  img={data.coverImg}
-                  rating={data.stats.rating.toFixed(1)} reviewCount={data.stats.reviewCount} 
-                  country={data.location} 
-                  title={data.title} 
-                  price={data.price}
-                  openSpot={data.openSpots}/>
+                  item = {data}
+                  // img={data.coverImg}
+                  // rating={data.stats.rating.toFixed(1)} reviewCount={data.stats.reviewCount} 
+                  // location={data.location} 
+                  // title={data.title} 
+                  // price={data.price}
+                  // openSpot={data.openSpots}
+                  />
           })}
       </section>
     </>
